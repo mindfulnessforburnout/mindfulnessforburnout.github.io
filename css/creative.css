@@ -18,6 +18,10 @@ hr.light {
   border-color: #F7FFF7;
 }
 
+hr.blue {
+  border-color: #47BBB3;
+}
+
 a {
   color: #FF6B6B;
   -webkit-transition: all 0.2s;
@@ -40,6 +44,10 @@ h6 {
 
 .bg-primary {
   background-color: #FF6B6B !important;
+}
+
+.bg-light {
+  background-color: #F7FFF7 !important;
 }
 
 .bg-dark {
@@ -174,7 +182,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('../img/header.jpg');
+  background-image: url('../img/header.jpg');
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -239,6 +247,10 @@ header.masthead p {
 
 .text-primary {
   color: #FF6B6B !important;
+}
+
+.text-white {
+  color: #F7FFF7 !important;
 }
 
 .btn {
