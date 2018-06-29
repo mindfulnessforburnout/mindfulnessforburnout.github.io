@@ -182,7 +182,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
+  background: linear-gradient( rgba(71, 187, 179, 0.2), rgba(71, 187, 179, 0.2) ), url('../img/header.jpg');
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -251,6 +251,10 @@ header.masthead p {
 
 .text-white {
   color: #F7FFF7 !important;
+}
+
+.text-black {
+  color: #000000 !important;
 }
 
 .btn {
