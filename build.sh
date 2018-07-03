@@ -5,5 +5,5 @@
 #cat js/vendors.min.js js/agency.js > js/all.js
 
 # minify css and js
-minify -o css/creative.min.css css/creative.css
-minify -o js/creative.min.js js/creative.js
+minify -o css/all.min.css css/all.css
+minify -o js/all.min.js js/all.js
