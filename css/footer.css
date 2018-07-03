@@ -1,0 +1,10 @@
+.footer {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/footer.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
