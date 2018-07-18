@@ -276,3 +276,17 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+
+.btn-blue {
+  background-color: #47bbb3;
+  border-color: #47bbb3;
+}
+
+.btn-blue:hover, .btn-blue:focus, .btn-blue:active {
+  color: #31847e;
+  background-color: #31847e !important;
+}
+
+.btn-blue:active, .btn-blue:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
