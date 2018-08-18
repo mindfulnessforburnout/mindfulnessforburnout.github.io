@@ -13,13 +13,14 @@ hr {
   border-width: 3px;
   border-color: #FF6B6B;
 }
-
 hr.light {
   border-color: #F7FFF7;
 }
-
 hr.blue {
   border-color: #47BBB3;
+}
+hr.long {
+  max-width: none!important;
 }
 
 a {
@@ -274,6 +275,19 @@ header.masthead p {
 }
 
 .btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.btn-primary-inverse {
+  background-color: #F7FFF7;
+  border-color: #F7FFF7;
+}
+
+.btn-primary-inverse:hover, .btn-primary-inverse:focus, .btn-primary-inverse:active {
+  color: #ee4b28 !important;
+}
+
+.btn-primary-inverse:active, .btn-primary-inverse:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
