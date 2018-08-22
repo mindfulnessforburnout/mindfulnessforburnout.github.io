@@ -304,3 +304,15 @@ header.masthead p {
 .btn-blue:active, .btn-blue:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+
+@media (max-width:575.98px){
+  #mainNav .navbar-brand {
+    font-size: .6rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767.98px){
+  #mainNav .navbar-brand {
+    font-size: .8rem;
+  }
+}
